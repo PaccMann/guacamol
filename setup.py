@@ -31,7 +31,7 @@ setup(
         "numpy>=1.15.2",
         "scipy>=1.1.0",
         "tqdm>=4.26.0",
-        "FCD==1.1",
+        "FCD",
         # FCD doesn't pin the tensorflow and Keras dependencies, so we have to do the honours
         "tensorflow",
         "Keras",
